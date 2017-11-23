@@ -1,0 +1,59 @@
+body {
+  padding: 30px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+  text-decoration: none;
+}
+
+.login-wrapper,
+.register-wrapper {
+  width: 600px;
+  height: 200px;
+  margin: 200px auto;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+.register-wrapper {
+  height: 300px;
+}
+
+.login-wrapper input,
+.register-wrapper input {
+  width: 200px;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 30px 10px;
+  padding: 5px;
+}
+
+.register-wrapper input {
+  display: block;
+  margin: 15px auto;
+}
+
+.login-wrapper button,
+.register-wrapper button {
+  width: 80px;
+  height: 30px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  background: #1099ff;
+  margin: 10px;
+}
+
+.main-nav {
+  margin-bottom: 30px;
+}
+
+.main-nav a {
+  margin: 10px;
+  font-size: 16px;
+}
