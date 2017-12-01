@@ -22,17 +22,13 @@ db.sqlite3
 !bin/gitlab-ci.sh
 !bin/dev/
 license/*
-!license/staratlas.pub
 update
 *.sublime-project
 *.sublime-workspace
 *.ropeproject
 download/*
 .fuse*
-build/debian/staratlasui
-build/debian/staratlasui-server
 build/debian/*.log
 build/rootfs
 yarn.lock
 .vscode
-UIServer/staratlasui/settings/local.py
