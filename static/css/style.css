@@ -1,0 +1,38 @@
+/*login*/
+.login-wrapper {
+  width: 800px;
+  height: 200px;
+  margin: 100px auto;
+  padding-top: 50px;
+  border: 1px solid #222;
+  text-align: center;
+}
+
+.login-wrapper input {
+  margin-bottom: 15px;
+}
+
+/*logo*/
+.logo-wrapper {
+  height: 60px;
+  padding: 0 30px;
+  line-height: 60px;
+  font-size: 14px;
+  border-bottom: 2px solid #ccc;
+}
+
+.logo {
+  font-size: 30px;
+  color: #9c9;
+}
+
+/*nav*/
+.nav-wrapper {
+  padding: 10px 10px;
+  font-size: 14px;
+  border-bottom: 2px solid #ccc;
+}
+
+.nav-wrapper li {
+  margin: 0 10px;
+}

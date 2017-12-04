@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 12px;
+  font-family: 'Microsoft Yahei';
+  color: #333;
+}
+
+input {
+  outline: none;
+  width: 250px;
+  height: 35px;
+  padding-left: 8px;
+  font-size: 14px;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 8px 25px;
+  border: 0;
+  border-radius: 5px;
+  background: #9c9;
+  color: #fff;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #9d9;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: #9c9;
+}
+
+a:hover {
+  color: #9d9;
+}
+
+li {
+  list-style: none;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.p8 {
+  padding: 8px;
+}
+
+.f12 {
+  font-size: 12px;
+}
+
+.f14 {
+  font-size: 14px;
+}
+
+.f16 {
+  font-size: 16px;
+}
